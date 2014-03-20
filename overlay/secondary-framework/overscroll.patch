@@ -1,0 +1,21 @@
+diff -Naur a/secondary-framework/smali/android/widget/EdgeEffect$Injector.smali b/secondary-framework/smali/android/widget/EdgeEffect$Injector.smali
+--- a/secondary-framework/smali/android/widget/EdgeEffect$Injector.smali	2013-12-06 12:20:23.000000000 +0800
++++ b/secondary-framework/smali/android/widget/EdgeEffect$Injector.smali	2013-12-06 11:22:31.000000000 +0800
+@@ -45,7 +45,7 @@
+ 
+     move-result-object v1
+ 
+-    const v2, 0x1080455
++    const v2, 0x1080432
+ 
+     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+ 
+@@ -76,7 +76,7 @@
+ 
+     move-result-object v1
+ 
+-    const v2, 0x1080456
++    const v2, 0x1080433
+ 
+     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+ 

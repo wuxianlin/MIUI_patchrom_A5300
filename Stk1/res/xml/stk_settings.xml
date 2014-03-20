@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:persistent="false" android:title="@string/service_name" android:key="service_name" android:summary="@string/stk_no_service" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/stk_app_state" android:key="stk_app_enable_disable" android:summaryOn="@string/enable_app" android:summaryOff="@string/disable_app" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+diff -Naur a/Settings/res/xml/settings_headers.xml b/Settings/res/xml/settings_headers.xml
+--- a/Settings/res/xml/settings_headers.xml	2013-10-13 21:52:54.908443302 +0800
++++ b/Settings/res/xml/settings_headers.xml	2013-10-13 21:54:09.492445299 +0800
+@@ -47,7 +47,7 @@
+     <header android:icon="@drawable/ic_headset_settings" android:id="@id/headset_settings" android:title="@string/headset_settings">
+         <intent android:action="miui.intent.action.HEADSET_SETTINGS" />
+     </header>
+-    <header android:id="@id/manufacturer_settings">
++    <header android:icon="@drawable/ic_launcher_settings" android:id="@id/manufacturer_settings" android:title="@string/stocksettings">
+         <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
+     </header>
+     <header android:id="@id/system_section" android:title="@string/header_category_system" />
+ 

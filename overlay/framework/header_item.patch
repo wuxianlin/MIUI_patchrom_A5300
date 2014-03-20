@@ -1,0 +1,12 @@
+diff -Naur a/framework/smali/android/preference/PreferenceActivity$Injector.smali b/framework/smali/android/preference/PreferenceActivity$Injector.smali
+--- a/framework/smali/android/preference/PreferenceActivity$Injector.smali	2013-12-30 10:26:12.000000000 +0800
++++ b/framework/smali/android/preference/PreferenceActivity$Injector.smali	2013-12-30 10:33:15.000000000 +0800
+@@ -42,7 +42,7 @@
+     if-nez v4, :cond_1
+ 
+     .line 309
+-    const v4, 0x10900a5
++    const v4, 0x10900a1
+ 
+     invoke-virtual {p2, v4, p1, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+ 

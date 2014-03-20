@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stock_settings">附加設置</string>
+    <string name="system">系統</string>
+    <string name="engineermode_settings">工程模式</string>
+    <string name="schedulepoweronoff_settings">定時開關機</string>
+    <string name="sound">音效</string>
+    <string name="camera_sound_switch">相機聲音開關</string>
+    <string name="camera_sound">拍照聲音</string>
+    <string name="record_sound">錄像聲音</string>
+    <string name="focus_sound">對焦聲音</string>
+    <string name="srs">SRS音效</string>
+    <string name="operation">操作</string>
+    <string name="mipop">屏幕助手(MIPop)</string>
+    <string name="flash_recovery">刷入Recovery</string>
+    <string name="toolbox">工具箱</string>
+    <string name="recovery_instruction">將Recovery鏡像命名為recovery.img放入外置SD後，點擊即可刷入</string>
+    <string name="internal_sdcard">當前默認存儲卡爲內置SD卡,妳可選擇外置SD卡作爲默認存儲卡，選擇後會自動重啓</string>
+    <string name="external_sdcard">當前默認存儲卡爲外置SD卡,妳可選擇內置SD卡作爲默認存儲卡，選擇後會自動重啓</string>
+    <string name="default_sdcard">默認存儲卡</string>
+</resources>

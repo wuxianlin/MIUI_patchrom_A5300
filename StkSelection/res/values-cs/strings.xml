@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sada nástrojů SIM</string>
+    <string name="activity_not_found">Aplikace není v telefonu nainstalována.</string>
+    <string name="simlock_toolkit">Sada nástrojů SIM</string>
+</resources>

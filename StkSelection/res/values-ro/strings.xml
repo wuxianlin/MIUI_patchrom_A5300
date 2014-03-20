@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Set de instrumente SIM</string>
+    <string name="activity_not_found">Aplicaţia nu este instalată pe telefonul dvs.</string>
+    <string name="simlock_toolkit">Set de instrumente SIM</string>
+</resources>

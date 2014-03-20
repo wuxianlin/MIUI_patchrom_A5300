@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@miui:style/V5.Widget.ListView.Item.SingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@*android:dimen/app_icon_size" android:layout_height="@*android:dimen/app_icon_size" android:layout_marginLeft="5.0dip" android:scaleType="fitCenter" />
+    <TextView android:textAppearance="@miui:style/V5.TextAppearance.List" android:gravity="center_vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:minHeight="?android:listPreferredItemHeight" android:maxLength="234" />
+</LinearLayout>

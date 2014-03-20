@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_not_found">O aplicativo não está instalado em seu telefone.</string>
+    <string name="simlock_toolkit">Ferramentas de SIM</string>
+</resources>

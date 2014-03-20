@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مجموعة أدوات بطاقة SIM</string>
+    <string name="activity_not_found">لم يتم تثبيت التطبيق على هاتفك.</string>
+    <string name="simlock_toolkit">مجموعة أدوات بطاقة SIM</string>
+</resources>

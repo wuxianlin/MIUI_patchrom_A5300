@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.mediatek.StkSelection"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@miui:style/V5.Theme.Light" android:label="@string/simlock_toolkit" android:icon="@drawable/ic_launcher_sim_toolkit" android:sharedUserId="android.uid.phone" android:process="com.android.phone">
+        <activity android:theme="@miui:style/V5.Theme.NoDisplay" android:label="@string/simlock_toolkit" android:name=".StkSelection" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,73 @@
+--- a/Settings/AndroidManifest.xml	2013-12-20 13:50:29.445645329 +0800
++++ b/Settings/AndroidManifest.xml	2013-12-20 13:51:33.000000000 +0800
+@@ -1098,6 +1098,62 @@
+         <activity android:theme="@miui:style/V5.Theme.Light.Settings" android:label="@string/application_info_label" android:name=".applications.RunningServiceDetailsActivity" android:exported="true" />
+         <activity android:label="@string/screen_color_temperature_and_saturation" android:name=".display.ScreenColorActivity" android:screenOrientation="portrait" />
+         <activity android:label="@string/wps_connect_title" android:name=".wifi.WpsActivity" android:screenOrientation="portrait" />
++        <activity android:theme="@miui:style/V5.Theme.Light" android:label="@string/perm_hips" android:name=".permission.PermDetailActivity" android:screenOrientation="portrait" />
++        <activity android:name="Settings$SimGprsSettings" android:parentActivityName="Settings">
++            <intent-filter>
++                <action android:name="android.settings.SIM_GPRS_SETTINGS" />
++                <category android:name="android.intent.category.DEFAULT" />
++            </intent-filter>
++        </activity>
++        <activity android:label="@string/wifi_tether_setting_title" android:name="Settings$TetherWifiSettingsActivity" android:enabled="@bool/is_mediatek" android:clearTaskOnLaunch="true" android:parentActivityName="Settings$TetherSettingsActivity">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++                <category android:name="android.intent.category.DEFAULT" />
++                <category android:name="android.intent.category.VOICE_LAUNCH" />
++                <category android:name="com.android.settings.SHORTCUT" />
++            </intent-filter>
++            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.mediatek.wifi.hotspot.TetherWifiSettings" />
++        </activity>
++        <activity-alias android:label="@string/wifi_tether_setting_title" android:name=".wifi.hotspot.TetherWifiSettings" android:enabled="@bool/is_mediatek" android:exported="true" android:clearTaskOnLaunch="true" android:targetActivity="Settings$TetherWifiSettingsActivity">
++            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.mediatek.wifi.hotspot.TetherWifiSettings" />
++        </activity-alias>
++        <activity android:name="com.mediatek.gemini.GeminiApnSettings" android:enabled="@bool/is_mediatek" android:exported="true" />
++        <activity android:label="@string/apn_edit" android:name="com.mediatek.gemini.GeminiApnEditor" android:enabled="@bool/is_mediatek">
++            <intent-filter>
++                <action android:name="gemini.intent.action.EDIT" />
++                <category android:name="android.intent.category.DEFAULT" />
++                <data android:mimeType="vnd.android.cursor.item/telephony-carrier" />
++            </intent-filter>
++            <intent-filter>
++                <action android:name="gemini.intent.action.INSERT" />
++                <category android:name="android.intent.category.DEFAULT" />
++                <data android:mimeType="vnd.android.cursor.dir/telephony-carrier" />
++            </intent-filter>
++        </activity>
++        <activity android:label="@string/sim_lock_settings" android:name="com.mediatek.gemini.GeminiIccLockSettings" android:enabled="@bool/is_mediatek" android:process="com.android.phone" />
++        <activity android:label="@string/sim_status_title" android:name="com.mediatek.gemini.SimStatusGemini" android:enabled="@bool/is_mediatek" android:process="com.android.phone">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++                <category android:name="android.intent.category.DEFAULT" />
++                <category android:name="android.intent.category.VOICE_LAUNCH" />
++            </intent-filter>
++        </activity>
++        <activity android:label="@string/slot_status_title" android:name="com.mediatek.gemini.ImeiInfoGemini" android:enabled="@bool/is_mediatek" android:process="com.android.phone">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++                <category android:name="android.intent.category.DEFAULT" />
++                <category android:name="android.intent.category.VOICE_LAUNCH" />
++            </intent-filter>
++        </activity>
++        <activity android:name="Settings$SimListEntranceActivity" android:enabled="@bool/is_mediatek" android:clearTaskOnLaunch="true">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++                <action android:name="com.android.settings.SIM_LIST_ENTRANCE_ACTIVITY" />
++                <category android:name="android.intent.category.DEFAULT" />
++            </intent-filter>
++            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.mediatek.gemini.SimListEntrance" />
++            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID" android:resource="@id/sim_settings" />
++        </activity>
+         <receiver android:name=".AnalyticsReceiver">
+             <intent-filter>
+                 <action android:name="android.intent.action.COLLECT_ANALYTICS_DATA" />
+@@ -1105,6 +1161,7 @@
+                 <action android:name="miui.intent.action.TRACK_EVENT" />
+             </intent-filter>
+         </receiver>
++        <activity android:name=".permission.AppPermissionsEditor" android:taskAffinity="com.android.settings" android:screenOrientation="portrait" />
+         <service android:name=".analytics.AnalyticService">
+             <intent-filter>
+                 <action android:name="android.intent.action.COLLECT_ANALYTICS_DATA" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="xml" name="camera_sound" id="0x7f030000" />
+    <public type="xml" name="stocksettings" id="0x7f030001" />
+    <public type="array" name="sdcard_entries" id="0x7f040000" />
+    <public type="array" name="sdcard_values" id="0x7f040001" />
+    <public type="dimen" name="activity_horizontal_margin" id="0x7f050000" />
+    <public type="dimen" name="activity_vertical_margin" id="0x7f050001" />
+    <public type="string" name="stock_settings" id="0x7f060000" />
+    <public type="string" name="system" id="0x7f060001" />
+    <public type="string" name="engineermode_settings" id="0x7f060002" />
+    <public type="string" name="schedulepoweronoff_settings" id="0x7f060003" />
+    <public type="string" name="sound" id="0x7f060004" />
+    <public type="string" name="camera_sound_switch" id="0x7f060005" />
+    <public type="string" name="camera_sound" id="0x7f060006" />
+    <public type="string" name="record_sound" id="0x7f060007" />
+    <public type="string" name="focus_sound" id="0x7f060008" />
+    <public type="string" name="srs" id="0x7f06000a" />
+    <public type="string" name="operation" id="0x7f06000b" />
+    <public type="string" name="mipop" id="0x7f06000c" />
+    <public type="string" name="flash_recovery" id="0x7f06000d" />
+    <public type="string" name="toolbox" id="0x7f06000e" />
+    <public type="string" name="recovery_instruction" id="0x7f06000f" />
+    <public type="string" name="internal_sdcard" id="0x7f060009" />
+    <public type="string" name="external_sdcard" id="0x7f060010" />
+    <public type="string" name="default_sdcard" id="0x7f060011" />
+    <public type="style" name="AppBaseTheme" id="0x7f070000" />
+    <public type="style" name="AppTheme" id="0x7f070001" />
+</resources>

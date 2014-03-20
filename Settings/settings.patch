@@ -1,0 +1,11 @@
+--- a/Settings/smali/com/android/settings/applications/RunningServiceDetails.smali	2014-03-14 15:34:13.000000000 +0800
++++ b/Settings/smali/com/android/settings/applications/RunningServiceDetails.smali	2014-03-16 14:09:46.000000000 +0800
+@@ -1185,7 +1185,7 @@
+     .line 314
+     iget-object v7, v3, Lcom/android/settings/applications/RunningServiceDetails$ActiveDetail;->mReportButton:Landroid/widget/Button;
+ 
+-    const v8, 0x10403e0
++    const v8, 0x10403dd
+ 
+     invoke-virtual {v7, v8}, Landroid/widget/Button;->setText(I)V
+ 

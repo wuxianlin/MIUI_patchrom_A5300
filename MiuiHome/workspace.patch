@@ -1,0 +1,63 @@
+diff -Naur a/MiuiHome/res/xml/default_workspace3x4.xml b/MiuiHome/res/xml/default_workspace3x4.xml
+--- a/MiuiHome/res/xml/default_workspace3x4.xml	2013-12-20 14:30:28.709544430 +0800
++++ b/MiuiHome/res/xml/default_workspace3x4.xml	2013-12-20 14:29:10.000000000 +0800
+@@ -17,7 +17,7 @@
+     <favorite launcher:className="com.xiaomi.market.ui.MarketTabActivity" launcher:packageName="com.xiaomi.market" launcher:screen="2" launcher:x="0" launcher:y="0" />
+     <favorite launcher:className="com.android.deskclock.DeskClockTabActivity" launcher:packageName="com.android.deskclock" launcher:container="1" launcher:x="0" launcher:y="0" />
+     <favorite launcher:className="com.android.soundrecorder.SoundRecorder" launcher:packageName="com.android.soundrecorder" launcher:container="1" launcher:x="1" launcher:y="0" />
+-    <favorite launcher:className="com.miui.fmradio.FmRadioActivity" launcher:packageName="com.miui.fmradio" launcher:container="1" launcher:x="2" launcher:y="0" />
++    <favorite launcher:className="com.miui.fmradio.FMRadioActivity" launcher:packageName="com.miui.fmradio" launcher:container="1" launcher:x="2" launcher:y="0" />
+     <favorite launcher:className="com.android.systemui.TorchActivity" launcher:packageName="com.android.systemui" launcher:container="1" launcher:x="3" launcher:y="0" />
+     <favorite launcher:className="com.android.calculator2.Calculator" launcher:packageName="com.android.calculator2" launcher:container="1" launcher:x="4" launcher:y="0" />
+     <favorite launcher:className="com.miui.voiceassist.MiuiVoiceAssistActivity" launcher:packageName="com.miui.voiceassist" launcher:container="1" launcher:x="5" launcher:y="0" />
+@@ -64,6 +64,8 @@
+     <shortcut launcher:className="com.android.fileexplorer.FileExplorerTabActivity" launcher:packageName="com.android.fileexplorer" launcher:container="3" launcher:x="13" launcher:y="0" launcher:title="com.android.fileexplorer:string/kuaipan_label" launcher:action="miui.intent.action.START_KUAIPAN" launcher:iconResource="com.android.fileexplorer:drawable/kuaipan_icon" />
+     <favorite launcher:className="com.tencent.sc.activity.SplashActivity" launcher:packageName="com.qzone" launcher:container="3" launcher:x="14" launcher:y="0" />
+     <favorite launcher:className="com.kingsoft.Main" launcher:packageName="com.kingsoft" launcher:container="3" launcher:x="15" launcher:y="0" />
++    <favorite launcher:className="com.mxtech.videoplayer.ActivityVideoList" launcher:packageName="com.mxtech.videoplayer.pro" launcher:container="3" launcher:x="16" launcher:y="0" />
++    <favorite launcher:className="com.adobe.flashplayer.SettingsManager" launcher:packageName="com.adobe.flashplayer" launcher:container="3" launcher:x="17" launcher:y="0" />
+     <favorite launcher:className="com.sina.weibo.SplashActivity" launcher:packageName="com.sina.weibo" launcher:screen="3" launcher:x="2" launcher:y="1" />
+     <favorite launcher:className="com.tencent.mobileqq.activity.SplashActivity" launcher:packageName="com.tencent.mobileqq" launcher:screen="3" launcher:x="0" launcher:y="2" />
+     <favorite launcher:className="com.android.contacts.activities.TwelveKeyDialer" launcher:packageName="com.android.contacts" launcher:container="-101" launcher:x="0" launcher:y="0" />
+diff -Naur a/MiuiHome/res/xml/default_workspace4x5.xml b/MiuiHome/res/xml/default_workspace4x5.xml
+--- a/MiuiHome/res/xml/default_workspace4x5.xml	2013-12-20 14:30:28.945544420 +0800
++++ b/MiuiHome/res/xml/default_workspace4x5.xml	2013-12-20 14:29:26.000000000 +0800
+@@ -16,7 +16,7 @@
+     <favorite launcher:className="com.xiaomi.market.ui.MarketTabActivity" launcher:packageName="com.xiaomi.market" launcher:screen="1" launcher:x="1" launcher:y="4" />
+     <favorite launcher:className="com.android.deskclock.DeskClockTabActivity" launcher:packageName="com.android.deskclock" launcher:container="1" launcher:x="0" launcher:y="0" />
+     <favorite launcher:className="com.android.soundrecorder.SoundRecorder" launcher:packageName="com.android.soundrecorder" launcher:container="1" launcher:x="1" launcher:y="0" />
+-    <favorite launcher:className="com.miui.fmradio.FmRadioActivity" launcher:packageName="com.miui.fmradio" launcher:container="1" launcher:x="2" launcher:y="0" />
++    <favorite launcher:className="com.miui.fmradio.FMRadioActivity" launcher:packageName="com.miui.fmradio" launcher:container="1" launcher:x="2" launcher:y="0" />
+     <favorite launcher:className="com.android.systemui.TorchActivity" launcher:packageName="com.android.systemui" launcher:container="1" launcher:x="3" launcher:y="0" />
+     <favorite launcher:className="com.android.calculator2.Calculator" launcher:packageName="com.android.calculator2" launcher:container="1" launcher:x="4" launcher:y="0" />
+     <favorite launcher:className="com.miui.voiceassist.MiuiVoiceAssistActivity" launcher:packageName="com.miui.voiceassist" launcher:container="1" launcher:x="5" launcher:y="0" />
+@@ -63,6 +63,8 @@
+     <shortcut launcher:className="com.android.fileexplorer.FileExplorerTabActivity" launcher:packageName="com.android.fileexplorer" launcher:container="3" launcher:x="13" launcher:y="0" launcher:title="com.android.fileexplorer:string/kuaipan_label" launcher:action="miui.intent.action.START_KUAIPAN" launcher:iconResource="com.android.fileexplorer:drawable/kuaipan_icon" />
+     <favorite launcher:className="com.tencent.sc.activity.SplashActivity" launcher:packageName="com.qzone" launcher:container="3" launcher:x="14" launcher:y="0" />
+     <favorite launcher:className="com.kingsoft.Main" launcher:packageName="com.kingsoft" launcher:container="3" launcher:x="15" launcher:y="0" />
++    <favorite launcher:className="com.mxtech.videoplayer.ActivityVideoList" launcher:packageName="com.mxtech.videoplayer.pro" launcher:container="3" launcher:x="16" launcher:y="0" />
++    <favorite launcher:className="com.adobe.flashplayer.SettingsManager" launcher:packageName="com.adobe.flashplayer" launcher:container="3" launcher:x="17" launcher:y="0" />
+     <favorite launcher:className="com.sina.weibo.SplashActivity" launcher:packageName="com.sina.weibo" launcher:screen="2" launcher:x="2" launcher:y="3" />
+     <favorite launcher:className="com.tencent.mobileqq.activity.SplashActivity" launcher:packageName="com.tencent.mobileqq" launcher:screen="2" launcher:x="3" launcher:y="3" />
+     <favorite launcher:className="com.android.contacts.activities.TwelveKeyDialer" launcher:packageName="com.android.contacts" launcher:container="-101" launcher:x="0" launcher:y="0" />
+diff -Naur a/MiuiHome/res/xml/default_workspace.xml b/MiuiHome/res/xml/default_workspace.xml
+--- a/MiuiHome/res/xml/default_workspace.xml	2013-12-20 14:30:28.541544437 +0800
++++ b/MiuiHome/res/xml/default_workspace.xml	2013-12-20 14:29:45.000000000 +0800
+@@ -16,7 +16,7 @@
+     <favorite launcher:className="com.xiaomi.market.ui.MarketTabActivity" launcher:packageName="com.xiaomi.market" launcher:screen="1" launcher:x="1" launcher:y="3" />
+     <favorite launcher:className="com.android.deskclock.DeskClockTabActivity" launcher:packageName="com.android.deskclock" launcher:container="1" launcher:x="0" launcher:y="0" />
+     <favorite launcher:className="com.android.soundrecorder.SoundRecorder" launcher:packageName="com.android.soundrecorder" launcher:container="1" launcher:x="1" launcher:y="0" />
+-    <favorite launcher:className="com.miui.fmradio.FmRadioActivity" launcher:packageName="com.miui.fmradio" launcher:container="1" launcher:x="2" launcher:y="0" />
++    <favorite launcher:className="com.miui.fmradio.FMRadioActivity" launcher:packageName="com.miui.fmradio" launcher:container="1" launcher:x="2" launcher:y="0" />
+     <favorite launcher:className="com.android.systemui.TorchActivity" launcher:packageName="com.android.systemui" launcher:container="1" launcher:x="3" launcher:y="0" />
+     <favorite launcher:className="com.android.calculator2.Calculator" launcher:packageName="com.android.calculator2" launcher:container="1" launcher:x="4" launcher:y="0" />
+     <favorite launcher:className="com.miui.voiceassist.MiuiVoiceAssistActivity" launcher:packageName="com.miui.voiceassist" launcher:container="1" launcher:x="5" launcher:y="0" />
+@@ -63,6 +63,8 @@
+     <shortcut launcher:className="com.android.fileexplorer.FileExplorerTabActivity" launcher:packageName="com.android.fileexplorer" launcher:container="3" launcher:x="13" launcher:y="0" launcher:title="com.android.fileexplorer:string/kuaipan_label" launcher:action="miui.intent.action.START_KUAIPAN" launcher:iconResource="com.android.fileexplorer:drawable/kuaipan_icon" />
+     <favorite launcher:className="com.tencent.sc.activity.SplashActivity" launcher:packageName="com.qzone" launcher:container="3" launcher:x="14" launcher:y="0" />
+     <favorite launcher:className="com.kingsoft.Main" launcher:packageName="com.kingsoft" launcher:container="3" launcher:x="15" launcher:y="0" />
++    <favorite launcher:className="com.mxtech.videoplayer.ActivityVideoList" launcher:packageName="com.mxtech.videoplayer.pro" launcher:container="3" launcher:x="16" launcher:y="0" />
++    <favorite launcher:className="com.adobe.flashplayer.SettingsManager" launcher:packageName="com.adobe.flashplayer" launcher:container="3" launcher:x="17" launcher:y="0" />
+     <favorite launcher:className="com.sina.weibo.SplashActivity" launcher:packageName="com.sina.weibo" launcher:screen="2" launcher:x="2" launcher:y="3" />
+     <favorite launcher:className="com.tencent.mobileqq.activity.SplashActivity" launcher:packageName="com.tencent.mobileqq" launcher:screen="2" launcher:x="3" launcher:y="3" />
+     <favorite launcher:className="com.android.contacts.activities.TwelveKeyDialer" launcher:packageName="com.android.contacts" launcher:container="-101" launcher:x="0" launcher:y="0" />

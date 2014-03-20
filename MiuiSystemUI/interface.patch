@@ -1,0 +1,18 @@
+--- a/MiuiSystemUI/smali/com/android/systemui/statusbar/CommandQueue.smali	2013-07-27 16:30:34.462900202 +0800
++++ b/MiuiSystemUI/smali/com/android/systemui/statusbar/CommandQueue.smali	2013-07-27 16:30:40.070900204 +0800
+@@ -350,6 +350,15 @@
+     throw v0
+ .end method
+ 
++.method public enableTransparent(ZLjava/lang/String;)V
++    .locals 0
++    .parameter "visible"
++    .parameter "engine"
++
++    .prologue
++    return-void
++.end method
++
+ .method public hideSIMIndicator()V
+     .locals 0
+     .annotation system Ldalvik/annotation/Throws;

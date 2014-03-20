@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ערכת כלי SIM</string>
+    <string name="activity_not_found">לא מותקנים יישומים במכשיר.</string>
+    <string name="simlock_toolkit">ערכת כלי SIM</string>
+</resources>

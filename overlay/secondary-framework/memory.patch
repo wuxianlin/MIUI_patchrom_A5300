@@ -1,0 +1,25 @@
+--- a/secondary-framework/smali/miui/os/Environment.smali	2014-02-21 16:57:06.000000000 +0800
++++ b/secondary-framework/smali/miui/os/Environment.smali	2014-02-27 17:57:03.000000000 +0800
+@@ -962,11 +962,11 @@
+ 
+     move-result-wide v0
+ 
+-    const-wide/32 v2, 0x19000
++    const-wide/32 v2, 0xc800
+ 
+     add-long/2addr v0, v2
+ 
+-    const-wide/32 v2, 0x40000
++    const-wide/32 v2, 0x20000
+ 
+     div-long/2addr v0, v2
+ 
+@@ -974,7 +974,7 @@
+ 
+     add-long/2addr v0, v2
+ 
+-    const-wide/16 v2, 0x100
++    const-wide/16 v2, 0x80
+ 
+     mul-long/2addr v0, v2
+ 

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM ပစ္စည်းကိရိယာ</string>
+    <string name="activity_not_found">ပရိုဂရမ်အား သင့်ဖုန်းတွင် မသွင်းထားပါ။</string>
+    <string name="simlock_toolkit">SIM ပစ္စည်းကိရိယာ</string>
+</resources>

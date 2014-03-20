@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="activity_not_found">Hindi naka-install ang application sa iyong telepono.</string>
+    <string name="simlock_toolkit">SIM Toolkit</string>
+</resources>

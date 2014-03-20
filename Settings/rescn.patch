@@ -1,0 +1,17 @@
+--- a/Settings/res/values-zh-rCN/arrays.xml	2013-12-03 18:00:42.321212486 +0800
++++ b/Settings/res/values-zh-rCN/arrays.xml	2013-12-03 18:03:29.453205457 +0800
+@@ -320,13 +320,9 @@
+         <item>紫红</item>
+     </string-array>
+     <string-array name="led_color_entries">
+-        <item>蓝</item>
+         <item>红</item>
+-        <item>黄</item>
+         <item>绿</item>
+-        <item>青</item>
+-        <item>白</item>
+-        <item>紫</item>
++        <item>蓝</item>
+     </string-array>
+     <string-array name="screen_key_long_press_action">
+         <item>无</item>

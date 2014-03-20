@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM ٹول کٹ</string>
+    <string name="activity_not_found">آپ کے فون پر ایپلیکیشن نصب نہيں ہے</string>
+    <string name="simlock_toolkit">SIM ٹول کٹ</string>
+</resources>

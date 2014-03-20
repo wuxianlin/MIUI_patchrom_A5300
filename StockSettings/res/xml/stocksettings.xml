@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/stock_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/system">
+        <Preference android:title="@string/engineermode_settings" android:key="engineermode_settings">
+            <intent android:targetPackage="com.mediatek.engineermode" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.engineermode.EngineerMode" />
+        </Preference>
+        <Preference android:title="@string/schedulepoweronoff_settings" android:key="schedulepoweronoff_settings">
+            <intent android:targetPackage="com.mediatek.schpwronoff" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.schpwronoff.AlarmClock" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sound">
+        <Preference android:title="@string/camera_sound_switch" android:key="camera_sound_switch">
+            <intent android:targetPackage="com.android.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="com.android.stocksettings.CameraSound" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/toolbox">
+        <ListPreference android:entries="@array/sdcard_entries" android:title="@string/default_sdcard" android:key="sdcard" android:defaultValue="0" android:entryValues="@array/sdcard_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

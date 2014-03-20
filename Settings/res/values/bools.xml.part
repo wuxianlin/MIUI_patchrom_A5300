@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="has_button_light">true</bool>
+     <bool name="has_internal_sdcard">true</bool>
+     <bool name="mass_storage_enable">true</bool>
+     <bool name="power_mode_enable">true</bool>
+</resources>

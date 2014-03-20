@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stock_settings">Stock Settings</string>
+    <string name="system">System</string>
+    <string name="engineermode_settings">EngineerMode</string>
+    <string name="schedulepoweronoff_settings">Schedule power on off</string>
+    <string name="sound">Sound</string>
+    <string name="camera_sound_switch">Camera Sound Switch</string>
+    <string name="camera_sound">Camera Sound</string>
+    <string name="record_sound">Video Record Sound</string>
+    <string name="focus_sound">Focus Sound</string>
+    <string name="srs">SRS Sound</string>
+    <string name="operation">Operation</string>
+    <string name="mipop">MIPop</string>
+    <string name="flash_recovery">Falsh Recovery</string>
+    <string name="toolbox">ToolBox</string>
+    <string name="recovery_instruction">Remane Recovery image to recovery.img and put it to external sdcard，then you can flash recovery after click the item</string>
+    <string name="internal_sdcard">The current default sdcard is internal sdcard,you can select the external sdcard as the default sdcard and the device will reboot after you finish clicking</string>
+    <string name="external_sdcard">The current default sdcard is external sdcard,you can select the internal sdcard as the default sdcard and the device will reboot after you finish clicking</string>
+    <string name="default_sdcard">Default Sdcard</string>
+</resources>

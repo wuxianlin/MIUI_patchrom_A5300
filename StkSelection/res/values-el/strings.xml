@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Κιτ εργαλείων SIM</string>
+    <string name="activity_not_found">Η εφαρμογή δεν έχει εγκατασταθεί στο τηλέφωνό σας.</string>
+    <string name="simlock_toolkit">Κιτ εργαλείων SIM</string>
+</resources>

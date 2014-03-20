@@ -1,0 +1,17 @@
+--- a/Settings/res/values-zh-rTW/arrays.xml	2013-12-03 18:00:42.273212488 +0800
++++ b/Settings/res/values-zh-rTW/arrays.xml	2013-12-03 18:04:04.433203986 +0800
+@@ -315,13 +315,9 @@
+         <item>紫紅</item>
+     </string-array>
+     <string-array name="led_color_entries">
+-        <item>藍</item>
+         <item>紅</item>
+-        <item>黃</item>
+         <item>綠</item>
+-        <item>青</item>
+-        <item>白</item>
+-        <item>紫</item>
++        <item>藍</item>
+     </string-array>
+     <string-array name="screen_key_long_press_action">
+         <item>無</item>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM卡应用</string>
+    <string name="activity_not_found">您的手机上未安装应用程序。</string>
+    <string name="simlock_toolkit">SIM卡应用</string>
+    <string name="no_sim_card_inserted">请插入SIM卡以启动SIM卡应用</string>
+    <string name="airplane_mode_on">飞行模式开启状态下无法启动SIM卡应用</string>
+</resources>

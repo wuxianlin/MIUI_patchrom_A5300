@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_not_found">Chưa cài đặt ứng dụng trên ĐT của bạn.</string>
+    <string name="simlock_toolkit">Bộ c.cụ SIM</string>
+</resources>
